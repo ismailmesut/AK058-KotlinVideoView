@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlinvideoview"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlinvideoview"
         minSdk = 24
